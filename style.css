@@ -114,19 +114,19 @@ a{
     padding-bottom: 80px;
 }
 .contact-info{
-    margin-top: 30px;
+    margin-top: 50px;
     font-size: 16px;
 }
 .icon{
     margin-right:20px;
     border: 3px solid #FFE078;
-    font-size: 18px;
-    padding: 20px;
+    font-size: 16px;
+    padding: 10px;
     border-radius: 50%;
     color: #0c596b;
 }
 .text h4{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: #202020;
     text-decoration: underline;
     font-weight: 700;
@@ -141,6 +141,7 @@ a{
     color: #0c596b;
 }
 .phone, .mail{
+    margin-right: 40px;
     width: 27%;
 }
 .office{
@@ -161,6 +162,7 @@ a{
     color: #0c596b;
     text-align: center;
     font-size: 36px;
+    padding-bottom: 40px;
 }
 .form label{
     margin-bottom: 10px;
@@ -193,4 +195,104 @@ a{
 .form button:hover{
     background-color: #FFE078;
     cursor: pointer;
+}
+
+/* Footer Section */
+
+#footer{
+    background-color: #0c596b;
+    padding-top: 60px;
+    margin-top: 80px;
+}
+.img{
+    height: 80px;
+    width: 80px;
+}
+.footer{
+    padding-bottom: 50px;
+    border-bottom: 1px solid #FFF;
+}
+.footer-text p{
+    color: #FFF;
+    opacity: .5;
+}
+.footer-description{
+    width: 33%;
+    padding-right: 20px;
+}
+.footer-text{
+    margin-top: 20px;
+}
+.social-icons{
+    margin-top: 20px;
+}
+.footer-contact{
+    width: 33%;
+    color: #FFF;
+}
+.footer-contact a{
+    color: #6c98e1;
+    font-size: 15px;
+    line-height: 20px;
+}
+.social-icon{
+    display: block;
+    margin-right: 10px;
+    color: #002e5b;
+    background-color: #FFF;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-size: 16px;
+    opacity: .5;
+    text-align: center;
+}
+.social-icon:hover{
+    opacity: 1;
+}
+.social-icon i{
+    margin-top: 8px;
+}
+.important-links{
+    width: 33%;
+}
+.important-links h2{
+    font-size: 36px;
+    color: #FFF;
+    font-family: montserrat, arial;
+
+}
+.lists{
+    margin-top: 30px;
+}
+.list-1{
+    width: 50%;
+}
+.lists ul{
+    list-style-type: none;
+}
+.lists ul li{
+    margin: 0 0 20px;
+}
+.lists ul li a{
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 20px;
+    color: #6c98e1;
+    font-family: montserrat, arial;
+}
+.lists ul li a:hover{
+    text-decoration: underline;
+}
+.copyright{
+    color: #FFF;
+    opacity: 0.5;
+    text-align: center;
+    font-size: 13px;
+    padding: 20px;
+}
+.copyright a{
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
 }
