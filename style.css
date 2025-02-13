@@ -204,9 +204,9 @@ a{
     padding-top: 60px;
     margin-top: 80px;
 }
-.img{
-    height: 80px;
-    width: 80px;
+.footer-description img{
+    height: 40px;
+    width: 50px;
 }
 .footer{
     padding-bottom: 50px;
