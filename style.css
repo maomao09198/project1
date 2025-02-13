@@ -205,8 +205,8 @@ a{
     margin-top: 80px;
 }
 .footer-description img{
-    height: 40px;
-    width: 50px;
+    height: 45px;
+    width: auto;
 }
 .footer{
     padding-bottom: 50px;
